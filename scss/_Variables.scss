@@ -1,0 +1,106 @@
+.cBlanco {
+    color: white !important;
+}
+
+
+$colores:(colorFondo:#383737,
+    ColorPrimario: #04BF68,
+    colorSecundario:#232426,
+    colorParrafo:white,
+);
+
+%neon{
+    border-radius: 2%;
+    box-shadow: 0 0 3px , 0 0 10px #7ccfb3, 0 0 20px #7ccfb3;
+    transition-delay: 0.2s;
+    color: map-get($colores, colorParrafo);
+}
+
+
+@mixin mediaQuery ($diseñoPantalla , $tamaño) {
+    @if $diseñoPantalla == Mobile{
+        @media only screen and (min-width: 500px) {
+            @content;
+        }
+    }@else if $diseñoPantalla == tablet{
+        @media only screen and (max-width: 900px){
+            @content;
+        }
+
+    }@else if $diseñoPantalla == desktop{
+        @media only screen and (max-width: 
+        1040px) {
+            @content;
+        }
+    }
+    }
+
+
+
+
+header {
+
+    nav li a {
+        &:hover {
+            background-color: map-get($colores, ColorPrimario);
+        }
+    }
+}
+
+
+
+.General {
+    display: flex;
+    width: 100%;
+    height: 100vh;
+    margin: 0% auto;
+    justify-content: center;
+    align-items: center;
+}
+
+
+
+
+footer {
+    display: flex;
+    width: 100%;
+    height: 5rem;
+    justify-content: center;
+    align-items: center;
+}
+
+
+.social {
+    display: flex;
+    justify-content: start;
+    align-items: center;
+    width: 100%;
+    height: 3.125rem;
+}
+
+
+
+.contenedor_Redes {
+    width: 100%;
+    height: 3.125rem;
+    color: map-get($colores, colorParrafo);
+    display: flex;
+    justify-content: end;
+    align-items: flex-end;
+    text-decoration: none;
+}
+
+
+.contenedor_Redes a {
+    color: map-get($colores, colorParrafo);
+    text-decoration: none;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 0.875rem;
+}
+
+.contenedor_Redes a {
+    color: map-get($colores, colorParrafo);
+    width: 12.5rem;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 0.875rem;
+}

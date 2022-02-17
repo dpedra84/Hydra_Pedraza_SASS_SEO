@@ -1,0 +1,223 @@
+.cBlanco {
+  color: white !important; }
+
+.card, .card_neon, .card_neon_contacto {
+  border-radius: 2%;
+  box-shadow: 0 0 3px , 0 0 10px #7ccfb3, 0 0 20px #7ccfb3;
+  transition-delay: 0.2s;
+  color: white; }
+
+header nav li a:hover {
+  background-color: #04BF68; }
+
+.General {
+  display: flex;
+  width: 100%;
+  height: 100vh;
+  margin: 0% auto;
+  justify-content: center;
+  align-items: center; }
+
+footer {
+  display: flex;
+  width: 100%;
+  height: 5rem;
+  justify-content: center;
+  align-items: center; }
+
+.social {
+  display: flex;
+  justify-content: start;
+  align-items: center;
+  width: 100%;
+  height: 3.125rem; }
+
+.contenedor_Redes {
+  width: 100%;
+  height: 3.125rem;
+  color: white;
+  display: flex;
+  justify-content: end;
+  align-items: flex-end;
+  text-decoration: none; }
+
+.contenedor_Redes a {
+  color: white;
+  text-decoration: none;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  font-size: 0.875rem; }
+
+.contenedor_Redes a {
+  color: white;
+  width: 12.5rem;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  font-size: 0.875rem; }
+
+.logo {
+  width: 9.375rem; }
+
+.btn-animado {
+  border: 1px solid #04BF68;
+  background-color: #04BF68;
+  color: white;
+  transition: 0.2s ease-in-out; }
+
+.btn-animado:hover {
+  border: 1px solid white;
+  background-color: white;
+  color: #04BF68 !important;
+  transition: 0.2s ease-in-out; }
+
+.imagenIndex {
+  display: flex;
+  justify-content: end;
+  align-items: end;
+  margin-left: 20%;
+  width: 70%; }
+
+.nosotros {
+  display: flex;
+  gap: 3.125rem;
+  justify-content: center;
+  width: 100%;
+  height: 25rem;
+  margin: 50px 0; }
+
+.nosotros__Info {
+  display: flex;
+  flex-direction: column;
+  width: 40%; }
+
+.nosotros__Info h1 {
+  color: white; }
+
+.nosotros__Info p {
+  color: white;
+  text-align: center; }
+
+.card {
+  width: 15.625rem;
+  background-color: #232426;
+  border-radius: 2%;
+  border: none;
+  cursor: pointer;
+  transition: all 0.5s; }
+
+.image img {
+  transition: all 0.5s; }
+
+.card:hover .image img {
+  transform: scale(1.2); }
+
+.btn2 {
+  height: 6.25rem;
+  width: 16.25rem;
+  border-radius: 50%; }
+
+.name {
+  font-size: 1.375rem;
+  font-weight: bold; }
+
+.idd {
+  font-size: 0.875rem;
+  font-weight: 600; }
+
+.idd1 {
+  font-size: 12px; }
+
+.number {
+  font-size: 0.75rem;
+  font-weight: bold; }
+
+.follow {
+  font-size: 0.75rem;
+  font-weight: 500;
+  color: #444444; }
+
+.btn1 {
+  height: 2.5rem;
+  width: 9.375rem;
+  border: none;
+  background-color: #000;
+  color: #aeaeae;
+  font-size: 0.938rem; }
+
+.text span {
+  font-size: 0.813rem;
+  color: #545454;
+  font-weight: 500; }
+
+.icons i {
+  font-size: 0.938rem; }
+
+hr .new1 {
+  border: 1px solid; }
+
+.date {
+  background-color: #ccc; }
+
+.textCard {
+  color: white !important;
+  line-height: 1.25rem;
+  margin-top: 3.125rem;
+  margin-bottom: 0.125rem;
+  padding: 0; }
+
+.fotoRedonda {
+  border-radius: 50%;
+  margin: 1.563rem; }
+
+.card_neon {
+  background-color: #232426;
+  border-radius: 2%; }
+
+@media only screen and (max-width: 900px) {
+  .caja {
+    width: 100%;
+    background-color: transparent !important;
+    box-shadow: none;
+    transition-delay: none; }
+  .General {
+    display: flex;
+    flex-direction: column;
+    justify-content: start;
+    margin-top: 3.125rem; }
+  .nosotros {
+    display: flex;
+    flex-direction: column;
+    width: 21.875rem;
+    margin: 300px auto;
+    justify-content: center;
+    align-items: center; }
+  .nosotros__Info {
+    display: flex;
+    flex-direction: column;
+    width: 21.875rem; }
+  .nosotros__Info p {
+    text-align: justify; }
+  footer {
+    display: flex;
+    height: auto;
+    flex-direction: column;
+    padding-top: 50px; }
+  .contenedor_Redes {
+    width: 28.125rem;
+    height: 3.125rem;
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-decoration: none; }
+  .Redes {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 0 auto;
+    margin-top: 20px; }
+  .contenedorContacto {
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap; } }
+
+body {
+  background-color: #383737; }

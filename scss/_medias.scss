@@ -1,0 +1,157 @@
+
+
+@include mediaQuery(mobile, 500px) {
+
+    .caja {
+        width: 100%;
+        background-color: transparent !important;
+        box-shadow: none;
+        transition-delay: none;
+    }
+
+    .General {
+        display: flex;
+        height: auto;
+        flex-direction: column;
+        justify-content: start;
+        margin-top: 3.125rem;
+
+    }
+
+
+
+    .nosotros {
+        display: flex;
+        flex-direction: column;
+        width: 21.875rem;
+        margin: 300px auto;
+        justify-content: center;
+        align-items: center;
+
+    }
+
+    .nosotros__Info {
+        display: flex;
+        flex-direction: column;
+        width: 21.875rem;
+        padding-top: 9.375rem;
+    }
+
+    .nosotros__Info p {
+        text-align: justify;
+    }
+
+    .contenedorContacto {
+        display: flex;
+        flex-direction: column;
+        flex-wrap: wrap;
+    }
+
+    footer {
+        display: flex;
+        height: auto;
+        flex-direction: column;
+        padding-top: 9.375rem;
+
+    }
+
+
+
+    .contenedor_Redes {
+        margin: 20px;
+        width: 28.125rem;
+        height: 3.125px;
+        color: white;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        text-decoration: none;
+
+
+
+    }
+
+    .Redes {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        margin: 0 auto;
+    }
+
+
+}
+
+@include mediaQuery(tablet, 900px) {
+
+    .caja {
+        width: 100%;
+        background-color: transparent !important;
+        box-shadow: none;
+        transition-delay: none;
+    }
+
+    .General {
+        display: flex;
+        flex-direction: column;
+        justify-content: start;
+        margin-top: 3.125rem;
+
+    }
+
+    .nosotros {
+        display: flex;
+        flex-direction: column;
+        width: 21.875rem;
+        margin: 300px auto;
+        justify-content: center;
+        align-items: center;
+
+    }
+
+    .nosotros__Info {
+        display: flex;
+        flex-direction: column;
+        width: 21.875rem;
+
+    }
+
+    .nosotros__Info p {
+        text-align: justify;
+    }
+
+
+    footer {
+        display: flex;
+        height: auto;
+        flex-direction: column;
+        padding-top: 50px;
+
+    }
+
+    .contenedor_Redes {
+        width: 28.125rem;
+        height: 3.125rem;
+        color: white;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        text-decoration: none;
+
+    }
+
+    .Redes {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        margin: 0 auto;
+        margin-top: 20px;
+
+    }
+
+    .contenedorContacto {
+        display: flex;
+        flex-direction: column;
+        flex-wrap: wrap;
+    }
+}
+

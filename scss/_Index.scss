@@ -1,0 +1,27 @@
+.logo {
+    width: 9.375rem;
+}
+
+.btn-animado{
+    border: 1px solid map-get($colores, ColorPrimario);
+    background-color: map-get($colores, ColorPrimario);
+    color: map-get($colores, colorParrafo);
+    transition: 0.2s ease-in-out
+
+}
+
+.btn-animado:hover {
+    border: 1px solid map-get($colores, colorParrafo);
+    background-color: map-get($colores, colorParrafo);
+    color: #04BF68 !important;
+    transition: 0.2s ease-in-out;
+}
+
+.imagenIndex {
+    display: flex;
+    justify-content: end;
+    align-items: end;
+    margin-left: 20%;
+    width: 70%;
+}
+

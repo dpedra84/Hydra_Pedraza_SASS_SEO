@@ -1,0 +1,6 @@
+@import "./Variables" , "./Index" , "./Nosotros" , "./Servicios" , "./Porfolio" , "./Clientes" , "./Contacto" , "./medias" ;
+
+body{
+    background-color: map-get($colores, colorFondo);
+}
+
